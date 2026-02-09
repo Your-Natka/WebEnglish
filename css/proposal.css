@@ -1,0 +1,77 @@
+.page-proposal {
+  padding: 80px 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #4dc274, #bee8cc);
+}
+
+.proposal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proposal-title {
+  margin-top: 64px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.16;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.high-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.16;
+  letter-spacing: 0em;
+  color: #bee8cc;
+}
+
+.proposal-card {
+  background: #fff;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.proposal-content {
+  flex: 1;
+}
+
+.proposal-title {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.proposal-text {
+  margin-bottom: 24px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.cards {
+  position: relative;
+  width: 1050px;
+  height: 463px;
+  background-color: var(--green);
+}
+
+.proposal-btn {
+  display: inline-block;
+  background: #4dc274;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.proposal-btn:hover {
+  background: #3cab5d;
+}
